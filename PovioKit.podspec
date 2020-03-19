@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Networking' do |ns|
-    ns.dependency 'Alamofire', '5.0.0'
+    ns.dependency 'Alamofire', '5.0.4'
     ns.dependency 'PovioKit/Utilities/PromiseKit'
     ns.dependency 'PovioKit/Utilities/Logger'
     

@@ -384,7 +384,7 @@ extension Int {
 
 extension Sequence {
   var asyncPromise: Promise<Self> {
-    after(.now() + 0.05, on: .global(), self)
+    after(.now() + 0.2, on: .global(), self)
   }
   
   var promise: Promise<Self> {
